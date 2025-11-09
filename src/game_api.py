@@ -5,7 +5,7 @@ import os
 
 class GameAPI:
     def __init__(self, api_key=None):
-        self.api_key = api_key or "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"
+        self.api_key = api_key or "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"
         self.bert_api_url = "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2"
         self.mistral_api_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
         self.headers = {"Authorization": f"Bearer {self.api_key}"}
